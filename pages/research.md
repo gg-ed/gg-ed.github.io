@@ -1,15 +1,17 @@
 ---
 layout: page
 title: Research
-description: Blue Ham's research
+description: Gar Goei's research
 ---
 
 
 
-#### <u>The effects of increased eye contact on feeding portions</u>
-*In this paper I estimate the effect of increased eye contact on the size of feeding portions delivered by my humans. Over a period of several months I varied the amount of time I spent in locked eye contact with my masters while secretely recording the total amount of food provided each day. The results incidate that the relationship between eye contact and portion size is concave, in that as eye contact increases, the portion size increases up until a point where it begins to decrease. Future research will examine whether time spent cuddling exhibits a similar relationship.*
+#### <u>Exploiting Hidden Convexity for Optimal Flow Control in Queueing Networks</u>
+*Optimal ﬂow control in queueing networks is a challenging problem occurring in many contexts, such as data centers, cloud computing, healthcare, revenue management, and distributed networks, etc. The traditional approach has been to adopt heuristic solutions or consider inﬁnite-horizon ﬂuid or diﬀusion approximations. Motivated by emerging techniques in Robust Optimization, we propose a framework, termed Pipeline Queues, which tracks the dynamics of a queue simultaneously in terms of its queue length and waiting time. We begin by showing that the dynamics of a traditional queueing system can be modeled using our approach. Our key contribution is the uncovering of the hidden convexity resulting from our modeling approach. This leads to tractable optimization formulations that yield approximate solutions for ﬂow control problems of obtaining performance guarantees on average and quantiles of waiting time, under arbitrary arrival and service distributions with non-zero initial conditions. Our model is ﬂexible enough to capture partial observability and uncertainty of the initial state, as well as various constraints on the control policy. We apply our approach 36 diﬀerent queue networks in a real dataset at a major hospital in India, to illustrate that our proposed policies are near optimal and perform signiﬁcantly better than present heuristics.*
 
-[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/sample-working-paper.pdf)
+This manuscript has been submitted to *Operations Research*. It will also be presented at the upcoming conferences in 2019: MostlyOM, MSOM, APS and Informs Annual Meeting 2019.
+
+[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/pqueue.pdf)
 
 
 <!-- Note: this is how to write a comment in HTML. Everything in here won't show up on your webpage.-->

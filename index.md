@@ -21,7 +21,7 @@ In my past life, I worked in various capacities in the Singapore Public Service,
     <div class="row-fluid">
         <div class="span5">
             Gar Goei LOKE<br/>
-            Email: gargoeiloke\[AT\]gmail\[DOT\]com<br/>
+            Email: gargoeiloke[AT]gmail[DOT]com or gargoei[AT]nus[DOT]com[DOT]sg<br/>
         </div>
 
         <div class="span2">
