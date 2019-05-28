@@ -25,6 +25,7 @@ Currently, I work very closely with Minglong, a PhD student starting his fourth 
     <div class="row-fluid">
         <div class="span5">
             Gar Goei is my given name (it is not Gar, and Goei is not a middle name); LOKE is the family name. Alternatively, you can call me GG. <br/>
+			<br/>
             Work email: gargoei[AT]nus[DOT]com[DOT]sg<br/>
 			Personal email: gargoeiloke[AT]gmail[DOT]com<br/>
         </div>
