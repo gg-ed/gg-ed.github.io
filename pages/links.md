@@ -7,7 +7,7 @@ description: Pages of Friends
 
 
 #### <u>Friends, Mentors and Collaborators</u>
-<a href="https://yeesian.com/">Yeesian NG</a> is my high school classmate and one of my closest confidentes. Independently, we both found ourselves in the same space of research many years on. He is sweeping up his PhD at MIT's Operations Research Center this year and will be joining Google this Fall. If it is even possible to describe his diverse academic interests, I would say it is in the union of machine learning and operations research.
+<a href="https://yeesian.com/">Yeesian NG</a> is my high school classmate and one of my closest confidentes. Serendipitously, we found ourselves in the same space of research many years on. He is sweeping up his PhD at MIT's Operations Research Center this year and will be joining Google this Fall. If it is even possible to describe his diverse academic interests, I would say it is in the union of machine learning and operations research.
 
 I work very closely with <a href="https://www.kellogg.northwestern.edu/faculty/bandi/index.htm">Chaithanya BANDI</a> from Kellogg, Northwestern. We continue to have many streams of research building on our initial work on P-Queues.
 

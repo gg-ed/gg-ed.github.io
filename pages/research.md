@@ -29,7 +29,7 @@ This paper is co-authored with Jingui XIE, from USTC, my advisor, Melvyn SIM, an
 
 ## Working Papers and Projects
 
-In this section, I describe some of the working papers that I have yet to turn into a manuscript format, as well as the projects that I have or am intending to embark on.
+In this section, I describe some of the working papers that I have yet to turn into a manuscript format, as well as the projects that I have embarked or am intending to embark on.
 
 #### Risk-based Optimization
 
