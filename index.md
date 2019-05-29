@@ -41,7 +41,7 @@ Currently, I work very closely with Minglong, a PhD student starting his fourth 
 <div class="navbar">
   <div class="navbar-inner">
       <ul class="nav">
-          <li><a href="{{ BASE_PATH }}/assets/CV.pdf">cv</a></li>
+          <li><a href="{{ BASE_PATH }}/assets/CV.pdf">CV</a></li>
           <li><a href="https://github.com/gg-ed">GitHub</a></li>
       </ul>
   </div>

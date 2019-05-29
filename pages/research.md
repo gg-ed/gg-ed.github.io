@@ -4,30 +4,46 @@ title: Research
 description: Gar Goei's research
 ---
 
-
-
 #### <u>Exploiting Hidden Convexity for Optimal Flow Control in Queueing Networks</u>
-*Optimal ﬂow control in queueing networks is a challenging problem occurring in many contexts, such as data centers, cloud computing, healthcare, revenue management, and distributed networks, etc. The traditional approach has been to adopt heuristic solutions or consider inﬁnite-horizon ﬂuid or diﬀusion approximations. Motivated by emerging techniques in Robust Optimization, we propose a framework, termed Pipeline Queues, which tracks the dynamics of a queue simultaneously in terms of its queue length and waiting time. We begin by showing that the dynamics of a traditional queueing system can be modeled using our approach. Our key contribution is the uncovering of the hidden convexity resulting from our modeling approach. This leads to tractable optimization formulations that yield approximate solutions for ﬂow control problems of obtaining performance guarantees on average and quantiles of waiting time, under arbitrary arrival and service distributions with non-zero initial conditions. Our model is ﬂexible enough to capture partial observability and uncertainty of the initial state, as well as various constraints on the control policy. We apply our approach 36 diﬀerent queue networks in a real dataset at a major hospital in India, to illustrate that our proposed policies are near optimal and perform signiﬁcantly better than present heuristics.*
+*This paper builds a general optimization framework (termed P-Queues) to seek a control policy in Queueing Networks that satisfies chance constraints on waiting times and other queue-based metrics. It can handle general service time distributions, general arrival distributions, non-zero initial conditions and a very large class of networks. The model appears to perform well in 36 experiments conducted on a real data set, coming within 5% of stochastic optimal and beating common heuristics by around 10%.*
 
-This manuscript has been submitted to *Operations Research*. It will also be presented at the upcoming conferences in 2019: MostlyOM, MSOM, APS and Informs Annual Meeting 2019.
+This paper is co-authored with Chaithanya BANDI from Kellogg, Northwestern. This manuscript has been submitted to *Operations Research*. It will also be presented at the upcoming conferences in 2019: MostlyOM, MSOM, APS and the INFORMS Annual Meeting.
 
-[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/pqueue.pdf)
+[The most recent version of the paper is available here.]({{ BASE_PATH}}/pages/working_papers/pqueue.pdf)
 
 #### <u>Risk-based Manpower Planning: A Tractable Multi-period Model</u>
 
-*The manpower planning problem of hiring and promoting has been the perennial diﬃculty of HR management. We propose a risk-based approach – ﬁnding a course of action that provides guarantees against the risk of running short of organizational targets, such as productivity, budget, headcount and managerial span of control. As such, this approach leads to an optimization model that minimizes a risk parameter, inspired by Aumann and Serrano (2008)’s riskiness index. Additionally, our model departs from the literature by considering employees’ time-in-grade, which is known to aﬀect resignations, as a decision variable. In our formulation, decisions and the uncertainty are related. To solve the model, we introduce the technique of pipeline invariance, which yields an exact re-formulation that may be tractably solved. Computational performance of the model is studied by running simulations on a real dataset of employees performing the same job function in the Singapore Civil Service. Using our model, we are able to illustrate insights into HR, such as the consequences of a lack of organizational renewal. Our model is also likely the ﬁrst numerical illustration that lends weight to a time-based progression policy common to bureaucracies. We believe that this technique of pipeline invariance could help solve a wider range of multi-period optimization problems.*
+*This paper addresses the strategic workforce planning question of how many employees to maintain at each staffing level, and how to progress to this optimal structure through hiring and promotion decisions. Most notably, it incorporates time-in-grade as a factor. It introduces the idea of pipeline invariance, a technique that allows the effect of subsequent time period decisions to be retraced to the initial state, hence making the multi-period problem tractable.*
 
-This manuscript is currently in Major Revision in *Operations Research*.
+This paper is co-authored with Patrick JAILLET, from MIT, and my advisor, Melvyn SIM. It is motivated by the research I was conducting when I was still leading the team of HR analytics in the Public Service Division in Singapore. This manuscript is currently in Major Revision in *Operations Research*.
 
-[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/manpower.pdf)
+[The most recent version of the paper is available here.]({{ BASE_PATH}}/pages/working_papers/manpower.pdf)
 
 #### <u>The Analytics of Bed Shortages: Coherent Metric, Prediction and Optimization</u>
 
-*Bed shortages in hospitals usually have a negative impact on patient satisfaction and medical outcomes. In practice, healthcare managers often use bed occupancy rates (BOR) as a metric to understand bed utilization, which is insuﬃcient in capturing the risk of bed shortages. We propose the bed shortage index (BSI) to capture more facets of bed shortage risk than traditional metrics such as the occupancy rate, the probability of shortages and expected shortages. The BSI is based on the well-known Aumann and Serrano (2008) riskiness index and it is calibrated to coincide with BOR when the daily arrivals in the hospital unit are Poisson distributed. Our metric can be tractably computed and does not require additional assumptions or approximations. As such, it can be consistently used across the descriptive, predictive and prescriptive analytical approaches. We also propose optimization models to plan for bed capacity via this metric. These models can be eﬃciently solved on a large scale via a sequence of linear optimization problems. The ﬁrst maximizes total elective throughput while managing the metric under a speciﬁed threshold. The second determines the optimal scheduling policy by lexicographically minimizing the steady-state daily BSI for a given number of scheduled admissions. We validate these models using real data from a hospital and test them against data-driven simulations. We apply these models to study the real-world problem of long stayers, to predict the impact of transferring them to community hospitals, as a result of an aging population.*
+*This paper addresses the capacity planning question in bed management. In particular, it proposes a metric that leads to a closed-form linear program. The metric allows planners to understand the effect of projected demographic shifts, as well as perform optimization on bed capacity. It is also able to handle tandem planning of capacity across different wards.*
 
-This manuscript has been submitted to *Operations Research*. It won the Best Student Paper at POMS-HK 2018.
+This paper is co-authored with Jingui XIE, from USTC, my advisor, Melvyn SIM, and Shao-Wei LAM, a collaborator in a hospital. This manuscript has been submitted to *Operations Research*. It won the Best Student Paper at POMS-HK 2018.
 
-[click here for the most recent version of the paper]({{ BASE_PATH}}/pages/working_papers/bed_shortage.pdf)
+[The most recent version of the paper is available here.]({{ BASE_PATH}}/pages/working_papers/bed_shortage.pdf)
+
+## Working Papers and Projects
+
+In this section, I describe some of the working papers that I have yet to turn into a manuscript format, as well as the projects that I have or am intending to embark on.
+
+#### Risk-based Optimization
+
+<b>Optimization of Fork-join Queues under the Pipeline Queues Paradigm.</b> The initial P-Queues framework introduced by Chaithanya and I in the first paper above, does not trivially extend to fork-join systems; this paper seeks to do just that. This is joint work with Chaithanya BANDI and Minglong ZHOU. It will be presented at INFORMS Annual Meeting 2019, but we are in the process of making an online manuscript available.
+
+<b>Water Management and Dispatch from a Robust Perspective.</b> The control of water around a water network in the city needs to be optimized, in order to minimize overflow and meet uncertain demand. This project was completed during my stint at the Government Technology Agency in Singapore. It is joint work with my ex-colleagues, Chii Yeh CHIN and Kai Wei TAN, and Ashley NG from the Public Utilities Board. We are in discussion if we are allowed to put a paper on the public domain.
+
+<b>Risk-based Model for Joint Capacity and Allocation.</b> This project aims to build a general optimization model for dynamic capacity planning and allocation within systems where demand needs to be met. It is joint work with Yun Fong LIM from the Singapore Management University, and his student Peng WANG. 
+
+#### Other Projects
+
+<b>Inventory Decisions for Subscription-based Fashion Rental.</b> This project is a collaboration with a firm running a subscription-based rental opertaions. This is joint work with Zhenyu HU, Qinshen TANG and Ge YANG. 
+
+<b>Jurong Port - Workforce Planning and Scheduling.</b> This project is a collaboration with Jurong Port. 
 
 <!-- Note: this is how to write a comment in HTML. Everything in here won't show up on your webpage.-->
 
