@@ -4,10 +4,15 @@ title: Research
 description: Gar Goei's research
 ---
 
+#### <u>Intraday Scheduling with Patient Re-entries and Variability in Behaviours</u>
+*This paper studies the intraday patient scheduling problem, but specifically examines how to model patient re-entry, no-show, lateness and walk-ins. These features can sometimes account for around 20-40% of all patients and hence ought to be carefully considered when optimizing scheduling decisions. This paper is a sharp illustration of the P-Queue framework (the paper after this one) in action, where we observe strong numerical performance arising from the optimal scheduling policy proposed by the model.*
+
+This paper is co-authored with Chaithanya BANDI from Kellogg, Northwestern, my student Minglong ZHOU, and a couple of medical doctors, Wilson WANG and Glen LIAU, who provided strong support in terms of practitioner experience and data. This manuscript has been submitted to the *MSOM Special Issue on Smart City Operations*. Minglong will also be presenting it at the upcoming INFORMS Annual Meeting 2019 in Seattle.
+
 #### <u>Exploiting Hidden Convexity for Optimal Flow Control in Queueing Networks</u>
 *This paper builds a general optimization framework (termed P-Queues) to seek a control policy in Queueing Networks that satisfies chance constraints on waiting times and other queue-based metrics. It can handle general service time distributions, general arrival distributions, non-zero initial conditions and a very large class of networks. The model appears to perform well in 36 experiments conducted on a real data set, coming within 5% of stochastic optimal and beating common heuristics by around 10%.*
 
-This paper is co-authored with Chaithanya BANDI from Kellogg, Northwestern. This manuscript has been submitted to *Operations Research*. It will also be presented at the upcoming conferences in 2019: MostlyOM, MSOM, APS and the INFORMS Annual Meeting.
+This paper is co-authored with Chaithanya BANDI from Kellogg, Northwestern. This manuscript received a rejectr and resubmit in *Operations Research*. It will also be presented at the INFORMS Annual Meeting 2019 in Seattle.
 
 [The most recent version of the paper is available here.]({{ BASE_PATH}}/pages/working_papers/pqueue.pdf)
 
@@ -33,15 +38,15 @@ In this section, I describe some of the working papers that I have yet to turn i
 
 #### Risk-based Optimization
 
-<b>Optimization of Fork-join Queues under the Pipeline Queues Paradigm.</b> The initial P-Queues framework introduced by Chaithanya and I in the first paper above, does not trivially extend to fork-join systems; this paper seeks to do just that. This is joint work with Chaithanya BANDI and Minglong ZHOU. It will be presented at INFORMS Annual Meeting 2019, but we are in the process of making an online manuscript available.
+<b>Adaptive Distribution Decision Rule in Resource Allocation Problems.</b> This work examines the problem of performing an adaptive matching between demand to supply resource availability under the context of demand uncertainty and dynamic resource re-allocation. Such circumstances are common in ride-sharing networks and patient management. We build a general optimization model for such problems and illustrate it on a maintenance work allocation setting. It is joint work with Yun Fong LIM from the Singapore Management University, and his student Peng WANG. It will be presented at the INFORMS Annual Meeting 2019 in Seattle, but we are in the process of making an online manuscript available.
 
-<b>Water Management and Dispatch from a Robust Perspective.</b> The control of water around a water network in the city needs to be optimized, in order to minimize overflow and meet uncertain demand. This project was completed during my stint at the Government Technology Agency in Singapore. It is joint work with my ex-colleagues, Chii Yeh CHIN and Kai Wei TAN, and Ashley NG from the Public Utilities Board. We are in discussion if we are allowed to put a paper on the public domain.
+<b>Optimization of Fork-join Queues under the Pipeline Queues Paradigm.</b> The initial P-Queues framework introduced by Chaithanya and I in the first paper above, does not trivially extend to fork-join systems; this paper seeks to do just that. This is joint work with Chaithanya BANDI and Minglong ZHOU. 
 
-<b>Risk-based Model for Joint Capacity and Allocation.</b> This project aims to build a general optimization model for dynamic capacity planning and allocation within systems where demand needs to be met. It is joint work with Yun Fong LIM from the Singapore Management University, and his student Peng WANG. 
+<b>Inventory Decisions for Subscription-based Fashion Rental.</b> This project is a collaboration with a firm running a subscription-based rental opertaions. This is joint work with Qinshen TANG and Yangge XIAO. 
+
+<b>Water Management and Dispatch from a Robust Perspective.</b> The control of water around a water network in the city needs to be optimized, in order to minimize flooding and meet uncertain demand. This project was completed during my stint at the Government Technology Agency in Singapore. It is joint work with my ex-colleagues, Chii Yeh CHIN and Kai Wei TAN, and Ashley NG from the Public Utilities Board. We are in discussion if we are allowed to put a paper on the public domain.
 
 #### Other Projects
-
-<b>Inventory Decisions for Subscription-based Fashion Rental.</b> This project is a collaboration with a firm running a subscription-based rental opertaions. This is joint work with Zhenyu HU, Qinshen TANG and Ge YANG. 
 
 <b>Jurong Port - Workforce Planning and Scheduling.</b> This project is a collaboration with Jurong Port. 
 

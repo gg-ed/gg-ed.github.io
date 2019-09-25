@@ -11,7 +11,7 @@ I am currently a Visiting Assistant Professor at National University of Singapor
 
 In my past life, I worked in various capacities in the Singapore Public Service, with my work largely revolving around leading teams of data scientists. A largest bulk of that time is spent with the Public Service Division, in the area of Human Resource Analytics. I continue to maintain close ties with the Government Technology Agency in Singapore.
 
-Currently, I work very closely with Minglong, a PhD student starting his fourth year in NUS.
+Currently, I am advising Minglong, a fourth-year PhD student in the Department of Analytics & Operations in NUS Business School. I also work closely with Yangge, a second-year PhD with the Institute of Operations Research and Analytics.
 
 [curriculum vitae ![CV as pdf]({{ BASE_PATH }}/pages/icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/CV.pdf)<br/>
 
