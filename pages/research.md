@@ -12,7 +12,7 @@ This paper is co-authored with Chaithanya BANDI from Kellogg, Northwestern, my s
 #### <u>Exploiting Hidden Convexity for Optimal Flow Control in Queueing Networks</u>
 *This paper builds a general optimization framework (termed P-Queues) to seek a control policy in Queueing Networks that satisfies chance constraints on waiting times and other queue-based metrics. It can handle general service time distributions, general arrival distributions, non-zero initial conditions and a very large class of networks. The model appears to perform well in 36 experiments conducted on a real data set, coming within 5% of stochastic optimal and beating common heuristics by around 10%.*
 
-This paper is co-authored with Chaithanya BANDI from Kellogg, Northwestern. This manuscript received a rejectr and resubmit in *Operations Research*. It will also be presented at the INFORMS Annual Meeting 2019 in Seattle.
+This paper is co-authored with Chaithanya BANDI from Kellogg, Northwestern. This manuscript received a reject and resubmit in *Operations Research*. It will also be presented at the INFORMS Annual Meeting 2019 in Seattle.
 
 [The most recent version of the paper is available here.]({{ BASE_PATH}}/pages/working_papers/pqueue.pdf)
 
