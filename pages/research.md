@@ -10,7 +10,7 @@ I have two broad research directions. The first and more recent one is angled to
 
 ### Interface between ML and OR
 
-This is the most recent direction that I have embarked on. I am interested in building models that harmonize these approaches, while at the same time, exploring how concepts and techniques in each of these areas can interchangeably be applied. I am really exciting about this area and hope you will be patient with me as I gradually complete the works I intend to embark on here :)
+This is the most recent direction that I have embarked on. I am interested in building models that harmonize these approaches, while at the same time, exploring how concepts and techniques in each of these areas can interchangeably be applied. I am really excited about this and hope you will be patient with me as I gradually complete the works I intend to embark on here :)
 
 #### <u> Decision-driven Regularization: Harmonizing the Predictive and Prescriptive
 *This paper considers joint prediction and optimization problems, where the decision-maker attempts to predict outcomes, from which decisions are going to be made. We introduce three important tenets in this setting that motivate our core idea of using the decisions and objective function as a regularizer in the learning of the weights in the predictions. This is exciting work, which potentially opens new doors to understand learning structured data and the connections between reinforcement learning and robust optimization from a completely new perspective.*
