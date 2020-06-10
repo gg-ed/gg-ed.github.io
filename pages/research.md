@@ -4,6 +4,23 @@ title: Research
 description: Gar Goei's research
 ---
 
+## Papers in the Public Domain
+
+I have two broad research directions. The first and more recent one is angled towards the interface between Machine Learning and Operations Research. The latter but earlier works are in the area of Robustness Optimization (Satisficing).
+
+### Interface between ML and OR
+
+This is the most recent direction that I have embarked on. I am interested in building models that harmonize these approaches, while at the same time, exploring how concepts and techniques in each of these areas can interchangeably be applied. I am really exciting about this area and hope you will be patient with me as I gradually complete the works I intend to embark on here :)
+
+#### <u> Decision-driven Regularization: Harmonizing the Predictive and Prescriptive
+*This paper considers joint prediction and optimization problems, where the decision-maker attempts to predict outcomes, from which decisions are going to be made. We introduce three important tenets in this setting that motivate our core idea of using the decisions and objective function as a regularizer in the learning of the weights in the predictions. This is exciting work, which potentially opens new doors to understand learning structured data and the connections between reinforcement learning and robust optimization from a completely new perspective.*
+
+This paper is co-authored with Qinshen TANG, who was recently emplaced at the Nanyang Technological University, Singapore, and my student Yangge XIAO. We have yet to submit it, but will be doing so pretty soon.
+
+[The most recent version of the paper is available here.]({{ BASE_PATH}}/pages/working_papers/ddr.pdf)
+
+### Robustness Optimization (aka Satisficing)
+
 #### <u>Intraday Scheduling with Patient Re-entries and Variability in Behaviours</u>
 *This paper studies the intraday patient scheduling problem, but specifically examines how to model patient re-entry, no-show, lateness and walk-ins. These features can sometimes account for around 20-40% of all patients and hence ought to be carefully considered when optimizing scheduling decisions. This paper is a sharp illustration of the P-Queue framework (the paper after this one) in action, where we observe strong numerical performance arising from the optimal scheduling policy proposed by the model.*
 
@@ -46,15 +63,9 @@ In this section, I describe some of the working papers that I have yet to turn i
 
 <b>Optimization of Fork-join Queues under the Pipeline Queues Paradigm.</b> The initial P-Queues framework introduced by Chaithanya and I in the first paper above, does not trivially extend to fork-join systems; this paper seeks to do just that. This is joint work with Chaithanya BANDI, Minglong ZHOU, and also Xinshang WANG at Alibaba. 
 
-#### Interface between Machine Learning and Operations Research
-
-<b>Decision-driven Regularization.</b> In this work, we study the setting of joint prediction and optimization problems. Specifically, we introduce a novel concept of a decision-driven regularizer, and are able to prove that our framework generalizes key models in the literature. This is joint work with my collaborator Qinshen TANG and my student Yangge XIAO. We hope to make our manuscript public by April 2020. We also intend to follow up with a more practice-based paper on the topic.
-
 #### Other Projects
 
 <b>Water Management and Dispatch from a Robust Perspective.</b> The control of water around a water network in the city needs to be optimized, in order to minimize flooding and meet uncertain demand. This project was completed during my stint at the Government Technology Agency in Singapore. It is joint work with my ex-colleagues, Chii Yeh CHIN and Kai Wei TAN, and Ashley NG from the Public Utilities Board. [A Medium article is written on this here.](https://medium.com/dsaid-govtech/using-robust-optimization-and-mixed-integer-programming-to-manage-singapores-water-resources-a0b899afe601)
-
-<b>Jurong Port - Workforce Planning and Scheduling.</b> This project is a collaboration with Jurong Port. 
 
 <!-- Note: this is how to write a comment in HTML. Everything in here won't show up on your webpage.-->
 
