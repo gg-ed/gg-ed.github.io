@@ -13,7 +13,7 @@ I have two broad research directions. The first and more recent one is angled to
 This is the most recent direction that I have embarked on. I am interested in building models that harmonize these approaches, while at the same time, exploring how concepts and techniques in each of these areas can interchangeably be applied. I am really excited about this and hope you will be patient with me as I gradually complete the works I intend to embark on here :)
 
 #### <u> Decision-driven Regularization: Harmonizing the Predictive and Prescriptive
-*This paper considers the predict-then-optimize setting, where the decision-maker attempts to predict outcomes, from which decisions are going to be made. We introduce three important tenets in this setting that motivate our core idea of using the decisions and objective function as a regularizer in the learning of the weights in the predictions. This is exciting work, which potentially opens new doors to understand learning structured data and the connections between machine learning and robust optimization from a completely new perspective.*
+*This paper considers the predict-then-optimize setting, where the decision-maker attempts to predict outcomes, from which decisions are going to be made. Along with nascent works in ther literature, we propose to make biased predictions, in exchange for optimal decision policies that lead to lower costs in the optimization stage. We implement this concept using the decisions and objective function as a regularizer in the learning of the weights in the predictions. This is exciting work, which potentially opens new doors to understand learning structured data and the connections between machine learning and robust optimization from a completely new perspective.*
 
 This paper is co-authored with Qinshen TANG, from the Nanyang Technological University, Singapore, and my PhD student Yangge XIAO. It is in preparation for re-submission to Management Science.
 
@@ -39,7 +39,7 @@ This paper is co-authored with my colleague Chaithanya BANDI. This manuscript re
 
 *This paper addresses the strategic workforce planning question of how many employees to maintain at each staffing level, and how to progress to this optimal structure through hiring and promotion decisions. Most notably, it incorporates time-in-grade as a factor. It introduces the idea of pipeline invariance, a technique that allows the effect of subsequent time period decisions to be retraced to the initial state, hence making the multi-period problem tractable.*
 
-This paper is co-authored with Patrick JAILLET, from MIT, and my advisor, Melvyn SIM. It is motivated by the research I was conducting when I was still leading the team of HR analytics in the Public Service Division in Singapore. This manuscript is currently in Major Revision in *Operations Research*.
+This paper is co-authored with Patrick JAILLET, from MIT, and my advisor, Melvyn SIM. It is motivated by the research I was conducting when I was still leading the team of HR analysts in the Public Service Division in Singapore. This manuscript is currently in Major Revision in *Operations Research*.
 
 [The most recent version of the paper is available here.]({{ BASE_PATH}}/pages/working_papers/manpower.pdf)
 
