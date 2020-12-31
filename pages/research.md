@@ -47,7 +47,7 @@ This paper is co-authored with Patrick JAILLET, from MIT, and my advisor, Melvyn
 
 *This paper addresses the capacity planning question in bed management. In particular, it proposes a metric that leads to a closed-form linear program. The metric allows planners to understand the effect of projected demographic shifts, as well as perform optimization on bed capacity. It is also able to handle tandem planning of capacity across different wards.*
 
-This paper is co-authored with Jingui XIE, now at TUM, my advisor, Melvyn SIM, and Shao-Wei LAM, a collaborator in a hospital. This manuscript has been submitted to *Operations Research*. It won the Best Student Paper at POMS-HK 2018.
+This paper is co-authored with Jingui XIE, now at TUM, my advisor, Melvyn SIM, and Shao-Wei LAM, a collaborator in a hospital. This manuscript has received a Minor Revision in *Operations Research*. It won the Best Student Paper at POMS-HK 2018.
 
 [The most recent version of the paper is available here.]({{ BASE_PATH}}/pages/working_papers/bed_shortage.pdf)
 
