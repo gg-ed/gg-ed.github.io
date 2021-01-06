@@ -7,11 +7,11 @@ keywords: operations research, data science, optimization, satisficing, public p
 
 #### About
 
-I am currently a Visiting Assistant Professor at National University of Singapore and have recently graduated with my PhD in March 2019. My research interests include Robust Optimization, Satisficing, Risk-based Optimization, and applications of OR in Public Policy. I also work very closely with <a href="https://www.kellogg.northwestern.edu/faculty/bandi/index.htm">Chaithanya</a> from Kellogg on some Queueing applications.
+I am currently a Visiting Assistant Professor at National University of Singapore and have recently graduated with my PhD in March 2019. My research interests include Robust Optimization, Satisficing, Interface between Machine Learning and OR, and applications of OR in Public Policy. 
 
 In my past life, I worked in various capacities in the Singapore Public Service, with my work largely revolving around leading teams of data scientists. A largest bulk of that time is spent with the Public Service Division, in the area of Human Resource Analytics. I continue to maintain close ties with the Government Technology Agency in Singapore.
 
-Currently, I am advising Minglong, a fourth-year PhD student in the Department of Analytics & Operations in NUS Business School. I also work closely with Yangge, a second-year PhD with the Institute of Operations Research and Analytics.
+Currently, I am advising Minglong ZHOU, a fifth-year PhD student in the Department of Analytics & Operations in NUS Business School and Yangge XIAO, a third-year PhD with the Institute of Operations Research and Analytics, NUS.
 
 [curriculum vitae ![CV as pdf]({{ BASE_PATH }}/pages/icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/CV.pdf)<br/>
 
